@@ -68,7 +68,7 @@ const NavBar = () => {
       </div>
     }
 
-    {sessionIn && (<Login />)}
+    {sessionIn && (<Login  setSessionIn={setSessionIn} />)}
     {sessionUp && (<Signup setSessionUp={setSessionUp} />)}
     </>
   );

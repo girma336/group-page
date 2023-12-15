@@ -5,6 +5,7 @@ import leftImage from './../../assets/lef-image.png';
 import {Image} from 'react-bootstrap';
 import faceBook from './../../assets/facebook.png'
 import google from './../../assets/google.png';
+import eye from './../../assets/eye.png';
 
 const Signup = ({setSessionUp}) => {
     const [modal, setModal] = useState(false);
@@ -59,6 +60,7 @@ const Signup = ({setSessionUp}) => {
                                 className="form__control"
                                 required
                                 />
+                                <Image src={eye} className='pass-show' />
                             </div>
                             <div className="form__input-div">
                                 <input
